@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="503.0" prefWidth="849.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sysdetect.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="511.0" fitWidth="849.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/f6c4b975-370e-4844-801c-012cf20d5b88.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="butaoStart" layoutX="339.0" layoutY="252.0" mnemonicParsing="false" onAction="#click" onDragDetected="#click" prefHeight="47.0" prefWidth="171.0" text="Start Inspection">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
